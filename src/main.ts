@@ -1,7 +1,10 @@
+export const solution = (
+  s1: string,
+  s2: string,
+): string => {
 
+  console.log('test');
+  return s1 + s2;
+};
 
-export const solution = (a: number, b: number) => {
-  return (a+b)
-}
-
-solution(2,2);
+solution('timetopractice', 'toc');

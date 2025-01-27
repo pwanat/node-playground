@@ -44,6 +44,8 @@
   "author": "Jakub Synowiec <jsynowiec@users.noreply.github.com>",
   "license": "Apache-2.0",
   "dependencies": {
+    "@datastructures-js/priority-queue": "^6.3.2",
+    "@datastructures-js/queue": "^4.2.3",
     "tslib": "~2.8"
   },
   "volta": {
