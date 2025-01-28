@@ -9,6 +9,8 @@ const cases = [
   {a: [-1, -2, -3, 2], expected: [-1, -3]},
   {a: [-1, -2, -3, 1], expected: [-2, -3]}, // remove head
   {a: [-1, -2, -3, 3], expected: [-1, -2]}, // remove tail
+  {a: [-1, -2, -3, 4], expected: [-1, -2, -3]}, // remove out of index
+  {a: [0, -1, -2, 0, -3, 0, 4, 0], expected: [-1, -2, -3]}, // with zeros
   {a: testArray, expected: [-99]},
 ];
 
